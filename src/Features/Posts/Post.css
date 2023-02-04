@@ -1,0 +1,8 @@
+.Post-card {
+    padding: 1rem;
+    margin: 20px 0;
+}
+.Post-user-container {
+    justify-content: center;
+    text-align: center;
+}

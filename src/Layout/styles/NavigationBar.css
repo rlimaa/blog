@@ -1,0 +1,22 @@
+.NavigationLink {
+    color: black;
+    text-decoration: none;
+}
+.NavigationLink:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.NavigationLink-dark-mode {
+    color: white;
+    text-decoration: none;
+}
+.NavigationLink-dark-mode:hover {
+    color: #afafaf;
+    text-decoration: none;
+}
+
+.navlink .active {
+    color: #afafaf;
+    text-decoration: underline;
+}
