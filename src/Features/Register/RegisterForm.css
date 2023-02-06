@@ -1,0 +1,14 @@
+.RegisterForm-avatar-container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterForm-file-input{
+    max-width: 600px;
+    margin: auto
+}
+
+.float-right {
+    float: right
+}

@@ -21,13 +21,13 @@ export default function Post({ post }: PostProps): JSX.Element {
                 color: isDarkMode ? "white" : "#545464"
             }}>
             <Row>
-                <Col xs={1}>
+                <Col xs={2} lg={1}>
                     <div className="Post-user-container align-middle">
                         <AccountCircleIcon style={{fontSize: "5rem"}} />
                         <p>User</p>
                     </div>
                 </Col>    
-                <Col xs={11}>
+                <Col xs={10} lg={11}>
                     <div className="align-middle">
                         <Typography variant="h5">{post.title}</Typography>
                         <Typography variant="h6">{post.body}</Typography>

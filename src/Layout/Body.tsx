@@ -15,10 +15,10 @@ export default function Body({ children }: BodyProps): JSX.Element {
         <div 
             className="content-wrapper"
             style={{
-                backgroundColor: isDarkMode ? "#091929" : "#f5f5f5"
+                backgroundColor: isDarkMode ? "#1b1b1d" : "#f5f5f5"
             }}
         >
-            <Container fluid>
+            <Container>
                     <Row>
                         <Col xs={12}>
                             {children}
